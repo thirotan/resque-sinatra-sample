@@ -1,3 +1,5 @@
+require "bundler/setup"
 require "resque/tasks"
 
-require "./job"
+require "./lib/sinatraapp/job"
+

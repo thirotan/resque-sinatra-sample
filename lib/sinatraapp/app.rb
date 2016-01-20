@@ -35,11 +35,9 @@ module SinatraApp
 	  end
     
     get '/' do
+      Resque.enqueue(Job, "Hello")
       slim :index
     end
     
-    post '/' do
-      Resque.enqueue(Job, "Hello")
-    end
   end
 end
