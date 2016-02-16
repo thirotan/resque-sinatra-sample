@@ -1,1 +1,3 @@
-window.alert("test");
+$('#button').click(function(){
+  alert("aタグ .click() のイベントだよぉ〜！");
+});
