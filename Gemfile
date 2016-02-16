@@ -4,12 +4,10 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 
 # select of database toolkit
-gem 'mysql2-cs-bind'
 gem 'mysql2'
-#gem 'sequel'
+gem 'sequel'
 
 # select of template engine
-#gem 'haml'
 gem 'slim'
 
 # select of no database
